@@ -1,30 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Fotos</title> <style>
-    body{
-        width: auto;
-        height: 600px;
+    <title>Error</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        border: px solid red;
+    }
+
+    body {
+        background-color: #000;
+        width: 100%;
+        cursor: help;
+
+    }
+
+    @media (max-width: 600px) {
+        .d {
+            height: 100vh;
+        }
+
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+    }
+
+    .d {
+        width: 100%;
+        height: 100vh;
         background-color: #000;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    img{
-        width: 80%;
+
+    img {
+        width: 30%;
         height: auto;
     }
-    </style>
+</style>
 </head>
+
 <body>
-    <img src="https://res.cloudinary.com/fotoqe123/image/upload/v1667324009/ABAUT/publicidad/portada%20de%20link/Lhuis_rkfzh2.png" alt="">
-    <script>
-        setTimeout(function () {
-            window.location.href = 'https://downhearted-subject.000webhostapp.com/app.html'
-                }, 1000 * 1)
-     </script>
+    <div class="d">
+        <script>
+            setTimeout(function () {
+                window.location.href = 'https://lhuis.000webhostapp.com/error.html'
+            }, 1000 * 0)
+        </script>
+        <script type="text/javascript">
+    
+        document.addEventListener("DOMContentLoaded", () => {
+    
+            let allDivs = document.querySelectorAll("div")
+    
+            allDivs[allDivs.length - 1].innerHTML = ""
+    
+        })
+    
+    </script>
+    </div>
 </body>
+
 </html>
